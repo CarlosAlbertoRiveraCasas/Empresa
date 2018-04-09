@@ -69,7 +69,6 @@ header ul ul{
   background-color: rgb(0, 29, 133);
   transform: translateX(60%);
   opacity: 0;
-  transition: all;
 }
 header ul li:hover ul{
   opacity: 1;
