@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>Login</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-sacale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <!-- Latest compiled and minified CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -24,7 +24,6 @@
             <nav>
               <ul>
                 <li class="actual"><a href="index.html">Home <span class="icon-home"></span></li>
-                <li><a href="login.html">Login <span class="icon-exit"></span></li>
                 <li><a href="formulario.html">Formularios: <span class="icon-stack"></span></a>
                   <ul>
                     <li><a href="cliente.html">Cliente</a></li>
@@ -46,13 +45,36 @@
                 <img src="img/NUESTRA-EMPRESA.png">
             </div>
           </div>
-          <div class="col-xs-12 col-sm-6">
-					<h1>NUESTRO LEMA ES: </h1>
-          <p>Ningún lugar es inalcanzable para nuestra empresa.</p>
-          <img src="https://retos-operaciones-logistica.eae.es/wp-content/uploads/2016/07/empresas-de-transporte.jpg">
+          <div class="col-xs-12 col-sm-6 panel panel-default" id=login>
+					<div class="m-login__wrapper">
+						<div class="m-login__signin">
+							<div class="m-login__head">
+								<h4 class="m-login__title">
+									Iniciar Sesión
+								</h4>
+							</div>
+							<form class="m-login__form m-form" action="#">
+								<div class="form-group m-form__group">
+									<p class="text_login">Correo</p>
+									<input class="form-control m-input" type="text" placeholder="Correo" autocomplete="on" required="">
+								</div>
+								<div class="form-group m-form__group">
+									<p class="text_login">Correo</p>
+									<input class="form-control m-input m-login__form-input--last" type="password" placeholder="Contraseña" required="">
+								</div>
+								<div class="m-login__form-action">
+									<button class="btn btn-focus m-btn m-btn--pill m-btn--custom m-btn--air" type="submit" >
+										<span class="icon-share"></span>Iniciar Sesión
+									</button>
+								</div>
+								<div id="msn"></div>
+							</form>
+						</div>
+					</div>
+                  <img src="img/login.png">
+				</div>
+        </div>
       </div>
-    </div>
-  </div>
       <footer>
         <div class="line_footer" ></div>
         <div class="container" id="contenedor">
@@ -66,7 +88,9 @@
                 <span class="icon-twitter"></span>Twitter: <a href="https://www.twitter.com/">TWITTER</a>
               </p>
             </div>
+
           </div>
+
         </div>
       </footer>
   </body>
