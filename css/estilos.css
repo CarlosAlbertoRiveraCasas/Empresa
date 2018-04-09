@@ -37,25 +37,6 @@ h3{
   margin: auto;
   overflow: hidden;
 }
-/**ul{
-  margin: 0;
-  padding: 0;
-}
-/* Encabezado
-header a{
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 14px;
-}
-header nav{
-  float: right;
-  margin-top: 10px;
-}
-header .resaltado, header .actual a{
-  color: rgb(0, 15, 0);
-  font-weight: bold;
-}**/
 header{
   width:100%;
   background-color:rgba(0, 160, 250, 0.5);
@@ -88,7 +69,7 @@ header ul ul{
   background-color: rgb(0, 29, 133);
   transform: translateX(60%);
   opacity: 0;
-  transition: all .6s;
+  transition: all;
 }
 header ul li:hover ul{
   opacity: 1;
